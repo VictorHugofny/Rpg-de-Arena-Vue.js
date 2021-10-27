@@ -109,6 +109,8 @@
 
 <script>
 
+
+
 export default {
     data(){
       return{
@@ -161,7 +163,6 @@ export default {
 },
 methods:{
   criarPersonagem: function(){
-    console.log("funcionando")
     this.criar = true
   },
   lutar: function(){
@@ -172,9 +173,7 @@ methods:{
     console.log("lutando")
     alert("EM DESENVOLVIMENTO")
   }
-  
 }
-
 
 }
 

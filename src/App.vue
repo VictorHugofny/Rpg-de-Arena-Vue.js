@@ -15,6 +15,8 @@
 <script>
 import Personagem from './components/Personagem.vue'
 
+
+
 export default {
   name: 'App',
   components: {
@@ -25,7 +27,8 @@ export default {
     return{
       nomePersonagem: "",
       nomeRaca: "",
-      nomeArma: ""
+      nomeArma: "",
+      
     }
     
   }
